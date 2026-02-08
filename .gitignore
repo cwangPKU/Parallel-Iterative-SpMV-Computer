@@ -1,0 +1,30 @@
+# Visual Studio cache files
+.vs/
+*.vcxproj
+*.vcxproj.filters
+*.sln
+*.suo
+*.user
+*.db
+
+# Compiled files
+*.o
+*.obj
+*.exe
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor files
+*.swp
+*~
+*.orig
+
+# Large data files
+*.csr

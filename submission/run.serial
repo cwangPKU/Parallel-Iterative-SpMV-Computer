@@ -1,0 +1,15 @@
+#!/bin/bash
+#SBATCH -o job_%j_%N.out
+#SBATCH -p cpu
+#SBATCH -J hw2
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --cpus-per-task=16
+#SBATCH -t 5:00
+
+./serial input1.csr -o output1_serial
+./serial input2.csr -o output2_serial
+./serial input3.csr -o output3_serial
+./serial input4.csr -o output4_serial
+./serial input5.csr -o output5_serial
+
